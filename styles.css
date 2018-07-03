@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(17, 0, 0, 0.5)), url(./image/1.jpg);
+    background-size: 100% 100%;
+}
+
+.logo {
+    width: 9%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    padding-top: 5em;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.parag1 {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-gap: 30px 30px 30px 30px 30px;
+    padding: 0 5px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 2em;
+    margin-left: 23em;
+}
+
+.pos {
+    position: relative;
+    left: -20px;
+}
+
+.font {
+    color: white;
+    font-size: 15px;
+}
+
+.inscri {
+    height: 35px;
+    width: 229px;
+}
+
+.notif {
+    height: 41px;
+    width: 115px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.socialmd {
+    margin-top: 3em;
+    text-align: center;
+}
+
+i {
+    margin-right: 30px;
+    border: 1px solid white;
+    color: white;
+    padding: 3px;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.flech {
+    margin-top: 3em;
+    text-align: center;
+    line-height: 14em;
+    border: none;
+}
+
+.flech>i {
+    border: none;
+}
+
+.about {
+    margin-top: -40px;
+    text-align: left;
+    line-height: 26px;
+    color: #786262;
+    padding: 50px;
+}
+
+.about>h2 {
+    text-align: center;
+    color: #939593;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #EDEDED;
+    text-align: center;
+    color: #786262;
+}
+
+.coln1 {
+    background-color: #f1f1f1;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 18px;
+    width: 300px;
+    height: 300px;
+    text-align: center
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.all {
+    background-color: #EDEDED;
+    width: 100%;
+    height: 100%;
+}
+
+.all2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+}
+
+.hex {
+    background-color: #BBBCBC;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -44px;
+}
+
+ .hex > i
+{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    border: none;
+   
+}
+
+
+.team
+{
+ 
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(17, 0, 0, 0.5)), url(./image/1.jpg);
+    background-size: auto;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.team2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70%;
+}
+
+.myteam
+{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 2em;
+
+    
+}
+.flex-container2
+{
+    display: flex;
+    text-align: center;
+   
+}
+.person1
+{
+    background-color: gray;
+    opacity: 0.5;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 18px;
+    width: 300px;
+    height: 300px;
+    
+    
+ 
+}
+
+
+
+.person1 > i
+
+{
+    margin-right: 30px;
+    border: 1px solid white;
+    color: white;
+    padding: 3px;
+}
+
+ .fin{
+    background-color: #2D2E2E;
+     
+   margin-top: -18px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+ }
+
+ .fin2
+
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 90%;
+    }
+ 
+    .info
+{
+     
+    text-align: left;
+}
+
+.info2
+{
+    text-align: left;
+    line-height: 1.9em;
+}
+
+.info2 > i
+
+{
+    border: none;
+}
+
+
+
+.form
+{
+    margin: -250px;
+    margin-left: 300px;
+    padding: 59px;
+}
+.name
+{
+    display: inline;
+    margin-top: 6px;
+    margin-bottom: 16px;
+} 
+
+.lastname
+{
+    display: inline;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+}
+
+.writesm
+{
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: -186px;
+}
+
+
+.btn
+{
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: -186px;
+}
+
+.img
+{
+   display: inline;
+   margin-right: 20px;
+   padding: 20px;
+   margin-left : 5px
+}
+    
+.img1
+{
+    margin-left : -58px;
+}
+
+.img2
+{
+    margin-right : -58px;
+}
