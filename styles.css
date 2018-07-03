@@ -265,54 +265,71 @@ h4 {
 
 .form
 {
-    margin: -250px;
-    margin-left: 300px;
-    padding: 59px;
+    width: 20%;
+    position: relative;
+    right: -800px;
+    bottom: 180px;
 }
 .name
-{
-    display: inline;
-    margin-top: 6px;
-    margin-bottom: 16px;
+{  float: left;
+    height:30px;
+    width: 120px;
+    
 } 
 
 .lastname
 {
-    display: inline;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    float: right;
+    width: 80px;
+    height:30px;
 
 }
 
 .writesm
 {
-    margin-top: 6px;
-    margin-bottom: 16px;
-    margin-left: -186px;
+    height:400px;
+    width: 400px;
 }
 
 
 .btn
 {
-    margin-top: 6px;
-    margin-bottom: 16px;
-    margin-left: -186px;
+    position: relative;
+    left: -80px;
+    
+
+    height: 41px;
+    width: 115px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
 }
 
 .img
 {
    display: inline;
-   margin-right: 20px;
-   padding: 20px;
-   margin-left : 5px
+  
 }
     
 .img1
 {
-    margin-left : -58px;
+    position: relative;
+    left: -170px;
 }
 
 .img2
 {
-    margin-right : -58px;
+    position: relative;
+    left: -155px;
+}
+
+.img3
+{position: relative;
+    margin-right : -120px;
+    right: 135px;
+}
+
+.img4
+{
+    margin-right : -150px;
 }
